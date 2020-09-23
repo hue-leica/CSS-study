@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0;
+        }
+        h1{
+            font-size: 90px;
+            border-bottom: 2px solid gray;
+            text-align: center;
+            margin:0;
+            padding:20px;
+        }
+        ol{
+            font-size: 30px;
+            border-right: 2px solid gray;
+            width:100px;
+            margin:0;
+            padding:30px;
+        }
+        #grid{
+            display: grid;
+            grid-template-columns: 150px 1fr;
+        }
+        #grid ol {
+            padding-left: 50px;
+        }
+        #article{
+            padding-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>WEB</h1>
+    <div id="grid">
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+        </ol>
+        <div id="article">
+            <h2>CSS</h2>
+            <p>CSS Description</p>
+        </div>
+    </div>
+</body>
+</html>
